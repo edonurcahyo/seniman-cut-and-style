@@ -10,7 +10,7 @@ const ServicesSection = () => {
     {
       id: 1,
       title: 'Haircut',
-      price: '$30',
+      price: 'Rp. 40.000',
       description: 'Precision haircut tailored to your style and preference.',
       duration: '30 min',
       image: 'https://images.unsplash.com/photo-1599351431202-1e0f0137899a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
@@ -18,18 +18,18 @@ const ServicesSection = () => {
     {
       id: 2,
       title: 'Beard Trim',
-      price: '$20',
+      price: 'Rp. 20.000',
       description: 'Expert beard shaping and styling to enhance your look.',
       duration: '20 min',
       image: 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
     },
     {
       id: 3,
-      title: 'Hot Towel Shave',
-      price: '$35',
-      description: 'Luxurious hot towel traditional straight razor shave.',
-      duration: '45 min',
-      image: 'https://images.unsplash.com/photo-1621605815971-fbc98d665033?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
+      title: 'Hair Coloring',
+      price: 'Rp. 100.000',
+      description: 'Vibrant color, expert touch — professional hair coloring with a luxurious finish.',
+      duration: '60 min',
+      image: 'https://media.istockphoto.com/id/1182128730/photo/hairdresser-hand-in-black-gloves-paints-the-womans-hair-in-a-pink-color.webp?a=1&b=1&s=612x612&w=0&k=20&c=mVxgN3ejZb51InyKsTLENVePhhyEjlndVaowyF9N3WY='
     }
   ];
 

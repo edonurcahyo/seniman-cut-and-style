@@ -121,7 +121,7 @@ const Login = () => {
                             <Label htmlFor="firstName">First Name</Label>
                             <Input
                               id="firstName"
-                              placeholder="John"
+                              placeholder="Hendrikus"
                               required
                             />
                           </div>
@@ -129,7 +129,7 @@ const Login = () => {
                             <Label htmlFor="lastName">Last Name</Label>
                             <Input
                               id="lastName"
-                              placeholder="Doe"
+                              placeholder="Olmedo"
                               required
                             />
                           </div>

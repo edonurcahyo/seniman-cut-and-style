@@ -16,9 +16,9 @@ const Profile = () => {
   
   // Mock user data for demonstration
   const [user, setUser] = useState({
-    firstName: 'John',
-    lastName: 'Doe',
-    email: 'johndoe@example.com',
+    firstName: 'Hendrikus',
+    lastName: 'Olmedo',
+    email: 'hendrikus@gmail.com',
     phone: '(123) 456-7890',
     loyaltyPoints: 240,
     nextReward: 250,

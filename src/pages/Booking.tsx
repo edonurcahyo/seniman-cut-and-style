@@ -25,17 +25,17 @@ const Booking = () => {
 
   // Sample data for a real app, this would come from an API
   const barbers = [
-    { id: '1', name: 'Alex Rodriguez', image: 'https://images.unsplash.com/photo-1565022536102-f7645d84354a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&q=80' },
+    // { id: '1', name: 'Alex Rodriguez', image: 'https://images.unsplash.com/photo-1565022536102-f7645d84354a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&q=80' },
     { id: '2', name: 'David Smith', image: 'https://images.unsplash.com/photo-1567894340315-735d7c361db0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&q=80' },
-    { id: '3', name: 'Michael Johnson', image: 'https://images.unsplash.com/photo-1584535762696-50849ebe228c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&q=80' },
+    { id: '3', name: 'Michael Johnson', image: 'https://images.unsplash.com/photo-1596513058260-ac19435ec75a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
   ];
 
   const services = [
-    { id: '1', name: 'Haircut', price: '$30', duration: '30 min' },
-    { id: '2', name: 'Beard Trim', price: '$20', duration: '20 min' },
-    { id: '3', name: 'Hot Towel Shave', price: '$35', duration: '45 min' },
-    { id: '4', name: 'Haircut & Beard', price: '$45', duration: '50 min' },
-    { id: '5', name: 'Hair Coloring', price: '$60', duration: '60 min' },
+    { id: '1', name: 'Haircut', price: 'Rp. 40.000', duration: '30 min' },
+    { id: '2', name: 'Beard Trim', price: 'Rp. 20.000', duration: '20 min' },
+    // { id: '3', name: 'Hot Towel Shave', price: 'Rp. 30.000', duration: '45 min' },
+    { id: '4', name: 'Haircut & Beard', price: 'Rp. 50.000', duration: '50 min' },
+    { id: '5', name: 'Hair Coloring', price: 'Rp. 100.000', duration: '60 min' },
   ];
 
   const timeSlots = [

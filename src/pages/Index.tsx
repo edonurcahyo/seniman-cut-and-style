@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -67,7 +66,7 @@ const Index = () => {
       name: 'John Williams',
       date: 'April 15, 2025',
       rating: 5,
-      review: 'Best haircut I've ever had. The atmosphere is great and the staff is friendly and professional.',
+      review: "Best haircut I've ever had. The atmosphere is great and the staff is friendly and professional.",
       image: 'https://randomuser.me/api/portraits/men/32.jpg'
     },
     {
@@ -75,7 +74,7 @@ const Index = () => {
       name: 'Robert Chen',
       date: 'March 28, 2025',
       rating: 5,
-      review: 'Alex is an amazing barber! I've been going to him for years and he never disappoints.',
+      review: "Alex is an amazing barber! I've been going to him for years and he never disappoints.",
       image: 'https://randomuser.me/api/portraits/men/44.jpg'
     },
     {
@@ -83,7 +82,7 @@ const Index = () => {
       name: 'Sam Taylor',
       date: 'February 10, 2025',
       rating: 4,
-      review: 'Great experience overall. Love the complimentary drinks and the hot towel service.',
+      review: "Great experience overall. Love the complimentary drinks and the hot towel service.",
       image: 'https://randomuser.me/api/portraits/men/51.jpg'
     }
   ];
@@ -154,7 +153,7 @@ const Index = () => {
               </div>
               <div className="aspect-square overflow-hidden rounded-lg mt-8">
                 <img 
-                  src="https://images.unsplash.com/photo-1635273051143-53a5329ce01b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                  src="https://images.unsplash.com/photo-1635273051143-53a5329ce01b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
                   alt="Barbershop detail" 
                   className="w-full h-full object-cover"
                 />
